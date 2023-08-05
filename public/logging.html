@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page!..</title>
+    <style>
+        
+        body {
+  background-image: url('login.jpg');
+  background-repeat: no-repeat;
+  
+}
+        div{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+         padding-top: 50px;
+         
+       
+        }
+        form{
+            height: 350px;
+            width: 1000px;
+            
+             border-radius: 10%;
+             padding-top: 60px;
+            
+        }
+        input {
+    font-family: 'Helvetica', serif;
+    width: 60%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #767474;
+}
+button{
+    font-family: 'Helvetica', serif;
+    width: 40%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #767474;
+    border-bottom: 2px solid #767474;
+}
+    </style>
+</head>
+<body>
+    <center>
+        <div>
+        <form action="/log_in" method="POST">
+        <input type="text" name="email" placeholder="Enter Your E-Mail"><br><br>
+        <input type="text" name="password" placeholder="Enter your password"><br><br>
+        <button id="but">Login</button>
+        </form>
+        
+        
+        </div>
+        <br>
+        <br><button><a href="/index.html">Back To Home</a></button>
+    </center>
+</body>
+</html>
